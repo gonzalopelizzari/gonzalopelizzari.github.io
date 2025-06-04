@@ -1,7 +1,212 @@
 <!DOCTYPE html>
 <html>
 <body>
-  <h1>Hello World!</h1>
+  <h1><!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>JORDAN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Montserrat', Arial, sans-serif;
+            background: #181818;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #232323;
+            padding: 30px 0 10px 0;
+            text-align: center;
+            box-shadow: 0 2px 8px #0002;
+        }
+        header h1 {
+            font-size: 3rem;
+            letter-spacing: 8px;
+            margin: 0;
+            color: #e63946;
+            text-shadow: 2px 2px 8px #0008;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .sneakers-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+            gap: 32px;
+        }
+        .sneaker-card {
+            background: #232323;
+            border-radius: 18px;
+            box-shadow: 0 4px 24px #0004;
+            overflow: hidden;
+            transition: transform 0.2s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .sneaker-card:hover {
+            transform: translateY(-8px) scale(1.03);
+            box-shadow: 0 8px 32px #e6394633;
+        }
+        .sneaker-img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            background: #fff;
+        }
+        .sneaker-info {
+            padding: 18px 16px 10px 16px;
+            text-align: center;
+        }
+        .sneaker-name {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin: 0 0 8px 0;
+            color: #fff;
+        }
+        .sneaker-price {
+            font-size: 1.1rem;
+            color: #e63946;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .buy-btn {
+            background: #e63946;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 28px;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background 0.2s;
+            margin-bottom: 10px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .buy-btn:hover {
+            background: #a4161a;
+        }
+        .contact {
+            margin: 40px 0 20px 0;
+            text-align: center;
+            font-size: 1.1rem;
+        }
+        .contact a {
+            color: #e63946;
+            text-decoration: none;
+            font-weight: 700;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            .sneaker-img {
+                height: 160px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>JORDAN</h1>
+    </header>
+    <div class="container">
+        <div class="sneakers-grid">
+            <div class="sneaker-card">
+                <img class="sneaker-img" src="https://i.imgur.com/Oe4iK5K.jpg" alt="Air Jordan 1 Retro High OG Chicago Lost and Found" />
+                <div class="sneaker-info">
+                    <div class="sneaker-name">Air Jordan 1 Retro High OG Chicago Lost and Found</div>
+                    <div class="sneaker-price">$1.200 USD</div>
+                    <a class="buy-btn" href="https://link.mercadopago.com.ar/gonpelizzari" target="_blank" rel="noopener noreferrer">Comprar</a>
+                </div>
+            </div>
+            <div class="sneaker-card">
+                <img class="sneaker-img" src="https://i.imgur.com/jKTV7j6.jpg" alt="Air Jordan 1 Retro High OG Dior" />
+                <div class="sneaker-info">
+                    <div class="sneaker-name">Air Jordan 1 Retro High OG Dior</div>
+                    <div class="sneaker-price">$9.000 USD</div>
+                    <a class="buy-btn" href="https://link.mercadopago.com.ar/gonpelizzari" target="_blank" rel="noopener noreferrer">Comprar</a>
+                </div>
+            </div>
+            <div class="sneaker-card">
+                <img class="sneaker-img" src="https://i.imgur.com/3wZXxMp.jpg" alt="Air Jordan 4 Retro Travis Scott" />
+                <div class="sneaker-info">
+                    <div class="sneaker-name">Air Jordan 4 Retro Travis Scott</div>
+                    <div class="sneaker-price">$1.500 USD</div>
+                    <a class="buy-btn" href="https://link.mercadopago.com.ar/gonpelizzari" target="_blank" rel="noopener noreferrer">Comprar</a>
+                </div>
+            </div>
+            <div class="sneaker-card">
+                <img class="sneaker-img" src="https://i.imgur.com/DlRAFxI.jpg" alt="Air Jordan 1 Retro High Off-White Chicago" />
+                <div class="sneaker-info">
+                    <div class="sneaker-name">Air Jordan 1 Retro High Off-White Chicago</div>
+                    <div class="sneaker-price">$7.500 USD</div>
+                    <a class="buy-btn" href="https://link.mercadopago.com.ar/gonpelizzari" target="_blank" rel="noopener noreferrer">Comprar</a>
+                </div>
+            </div>
+            <div class="sneaker-card">
+                <img class="sneaker-img" src="https://i.imgur.com/zDLm7gx.jpg" alt="Air Jordan 4 Retro OG Fire Red" />
+                <div class="sneaker-info">
+                    <div class="sneaker-name">Air Jordan 4 Retro OG Fire Red</div>
+                    <div class="sneaker-price">$800 USD</div>
+                    <a class="buy-btn" href="https://link.mercadopago.com.ar/gonpelizzari" target="_blank" rel="noopener noreferrer">Comprar</a>
+                </div>
+            </div>
+            <div class="sneaker-card">
+                <img class="sneaker-img" src="https://i.imgur.com/SHPk8SK.jpg" alt="Air Jordan 11 Retro Concord" />
+                <div class="sneaker-info">
+                    <div class="sneaker-name">Air Jordan 11 Retro Concord</div>
+                    <div class="sneaker-price">$900 USD</div>
+                    <a class="buy-btn" href="https://link.mercadopago.com.ar/gonpelizzari" target="_blank" rel="noopener noreferrer">Comprar</a>
+                </div>
+            </div>
+            <div class="sneaker-card">
+                <img class="sneaker-img" src="https://i.imgur.com/Ag0fq2I.jpg" alt="Air Jordan 6 Retro Travis Scott" />
+                <div class="sneaker-info">
+                    <div class="sneaker-name">Air Jordan 6 Retro Travis Scott</div>
+                    <div class="sneaker-price">$1.200 USD</div>
+                    <a class="buy-btn" href="https://link.mercadopago.com.ar/gonpelizzari" target="_blank" rel="noopener noreferrer">Comprar</a>
+                </div>
+            </div>
+            <div class="sneaker-card">
+                <img class="sneaker-img" src="https://i.imgur.com/Gfjb6Aa.jpg" alt="Air Jordan 5 Retro Off-White Black" />
+                <div class="sneaker-info">
+                    <div class="sneaker-name">Air Jordan 5 Retro Off-White Black</div>
+                    <div class="sneaker-price">$1.100 USD</div>
+                    <a class="buy-btn" href="https://link.mercadopago.com.ar/gonpelizzari" target="_blank" rel="noopener noreferrer">Comprar</a>
+                </div>
+            </div>
+            <div class="sneaker-card">
+                <img class="sneaker-img" src="https://i.imgur.com/7Wtz9UE.jpg" alt="Air Jordan 3 Retro OG Black Cement" />
+                <div class="sneaker-info">
+                    <div class="sneaker-name">Air Jordan 3 Retro OG Black Cement</div>
+                    <div class="sneaker-price">$950 USD</div>
+                    <a class="buy-btn" href="https://link.mercadopago.com.ar/gonpelizzari" target="_blank" rel="noopener noreferrer">Comprar</a>
+                </div>
+            </div>
+            <div class="sneaker-card">
+                <img class="sneaker-img" src="https://i.imgur.com/xPU9hYB.jpg" alt="Air Jordan 1 Retro High OG UNC To Chicago" />
+                <div class="sneaker-info">
+                    <div class="sneaker-name">Air Jordan 1 Retro High OG UNC To Chicago</div>
+                    <div class="sneaker-price">$1.000 USD</div>
+                    <a class="buy-btn" href="https://link.mercadopago.com.ar/gonpelizzari" target="_blank" rel="noopener noreferrer">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            ¿Dudas o consultas? <br />
+            <a href="https://wa.me/541127434820" target="_blank" rel="noopener noreferrer">Escribime por WhatsApp: +54 11 2743-4820</a>
+        </div>
+    </div>
+</body>
+</html>
+</h1>
 </body>
 </html>
 
